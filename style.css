@@ -173,14 +173,14 @@ header,main{
      }
      /* --------------Sponsor Company------------------ */
      .sponsor-compaany{
-          display: grid;
-          grid-template-columns:20% 25% 25% 20% ;
-          grid-template-rows:33% 33% 33%;
-          gap: 10px;
+          justify-content: space-evenly;
+          align-items: center;
+          gap: 20px;
+          flex-wrap: wrap;
           margin-bottom: 30px;
      }
      .sponsor-compaany img{
-          width: 50px;
+          width: 65px;
           height: 30px;
      }
 
