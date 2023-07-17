@@ -92,14 +92,75 @@ header,main{
      display: flex;
      justify-content: center;
      align-items: center;
-     gap: 70px;
+     gap: 50px;
      margin-bottom: 120px;
+     padding: 18px;
      width: 100%;
+     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.178);
 }
 /* <---------------------------Collection products------------------------ --> */
 .product-tittle{
      text-align: center;
      margin-bottom: 30px;
+}
+.products-content-card{
+     display: grid;
+     grid-template-columns: repeat(3,1fr);
+     margin-left: 20px;
+     gap: 40px;
+     width: 100%;
+}
+.product-card{
+     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.178);
+     border-radius:8px ;
+     width: 300px;
+     height: 476px; 
+     padding:15px ;
+}
+.product-card h2{
+     color: #18191F;
+     font-size:2rem;
+     font-weight: 500;
+     margin-top: 16px;
+
+
+}
+.product-card h3{
+     color: rgba(0, 0, 0, 0.774);
+     font-size: 1.8rem;
+     font-weight: 400;
+     line-height: 150%;    
+}
+.product-rating{
+     display: flex;
+     align-items: center;
+     gap: 5px;
+     font-size: 14px;
+}
+.product-rating p{
+     color: var(--gray-color);
+     margin-left: 8px;
+font-size:1rem;
+
+}
+.product-card-description{
+     color: var(--gray-color);
+font-size: 1rem;
+font-weight: 600;
+line-height: 143%;
+letter-spacing: 0.252px;
+}
+.see-more{
+     display: flex;
+     justify-content: end;
+     align-items: center;
+     color: var(--golapi-color);
+     font-size: 1rem;
+     font-weight: 700;
+     gap: 10px;
+     width: 100%;
+     margin-top:20px ;
+
 }
 
 
@@ -135,6 +196,8 @@ header,main{
        .navbar-container{
             flex-direction: column;
            margin-bottom: 20px;
+           text-align: center;
+           margin-left: -8px;
        }
   
       /* -----------Banner section------------- */
@@ -175,13 +238,20 @@ header,main{
      .sponsor-compaany{
           justify-content: space-evenly;
           align-items: center;
-          gap: 20px;
+          gap: 10px;
           flex-wrap: wrap;
+          padding:8px;
           margin-bottom: 30px;
+          margin-left: -10px;
      }
      .sponsor-compaany img{
           width: 65px;
           height: 30px;
+     }
+     /* <------------Collection products------------ --> */
+     .products-content-card{
+          grid-template-columns: repeat(1,1fr);
+          margin-left:0px;
      }
 
 }
