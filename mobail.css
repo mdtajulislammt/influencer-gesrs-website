@@ -1,0 +1,105 @@
+/* ---------------------------------------Responsive-section ------------------------------------ */
+
+/* ------------------------Mobaile-Responsive --------- */
+
+@media screen and (max-width:576px) {
+     header, main{
+          margin: 35px 30px;
+     }
+     /* -----------navbar section------------- */
+     .nav-content li >a{
+          font-size: 0.7rem;
+     }
+       .nav-content li{
+        margin-left: 20px;
+       } 
+       .nav-logo h1{
+          font-size: 2rem;
+          margin-bottom: 20px;
+      }
+     
+       .navbar-container{
+            flex-direction: column;
+           margin-bottom: 20px;
+           text-align: center;
+           margin-left: -8px;
+       }
+  
+      /* -----------Banner section------------- */
+
+     .banner-container{
+          flex-direction: column-reverse;
+          text-align: center;
+          width: 100%;
+          
+     }
+      
+     .banner-img {
+          width: 90%;
+     }
+      .banner-img-2{
+          width: 100%;
+     }
+     .banner-img-1{
+          width:60%;
+          margin: 35px;
+          
+     }
+     .banner-content{
+          width: 100%;
+     }
+     .banner-tittle{
+          font-size: 2.1rem;
+          font-weight: 700;
+          line-height: 3rem;
+     }
+     .banner-description{
+          width:100%;
+     }
+     .primary-btn{
+          margin: 0 auto;
+     }
+     /* --------------Sponsor Company------------------ */
+     .sponsor-compaany{
+          justify-content: space-evenly;
+          align-items: center;
+          gap: 10px;
+          flex-wrap: wrap;
+          padding:8px;
+          margin-bottom: 30px;
+          margin-left: -10px;
+     }
+     .sponsor-compaany img{
+          width: 65px;
+          height: 30px;
+     }
+     /* <------------Collection products------------ --> */
+     .products-content-card{
+          grid-template-columns: repeat(1,1fr);
+          margin-left:0px;
+     }
+     /* --------------feature-products---------------- */
+     .feature-products{
+          flex-direction: column-reverse;
+          margin-top: 50px;
+          margin-bottom: 30px;
+          text-align: center;
+          gap: 30px;
+     }
+     .feature-img img{
+         width: 95%;
+         border-radius: 15px;
+     }
+     .feature-content-tittle{
+          font-size: 1.5rem;
+          /* width: 100%; */
+          
+     }
+     .feature-content-description{
+          font-size: 1rem;
+          line-height: 25px;
+          /* width: 100%; */
+     }
+
+
+}
